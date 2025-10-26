@@ -58,6 +58,8 @@ by Espressif Systems, based on **ESP-IDF v4.4.6**.
 <img width="963" height="602" alt="pipeline_flowchart" src="https://github.com/user-attachments/assets/7994be59-2418-4da2-b785-72b5e8a0ab55" />
 
 ## Project Poster:
- 
+
+ ![IOT_GROUP1_POSTER](https://github.com/user-attachments/assets/b7cec5ff-77d4-4d3e-bd07-881a8ff4e644)
+
 This project is part of ICST - The Interdisciplinary Center for Smart Technologies, Taub Faculty of Computer Science, Technion
 https://icst.cs.technion.ac.il/
