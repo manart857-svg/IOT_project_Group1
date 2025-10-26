@@ -4,8 +4,9 @@
 
 This project involves developing a data collection and analysis system using two sensors connected to an **ESP32 microcontroller** on a breadboard setup:  
 
-1. **HC-SR04 Ultrasonic Distance Sensor** – used to measure distance and detect height variations, such as during walking upstairs or downstairs.  
-2. **MPU-6500 IMU Sensor** – used to record 6-axis motion data (3-axis accelerometer and 3-axis gyroscope) for analyzing movement and orientation patterns.
+1. **HC-SR04 Ultrasonic Distance Sensor** – This sensor was used to measure the distance between a human subject and the sensor at various fixed points.  
+Experiments were conducted with the subject standing still at different distances ranging from **20 cm to 300 cm**, in order to evaluate the accuracy, stability, and noise characteristics of the sensor under controlled conditions. 
+2. **MPU-6500 IMU Sensor** – used to record 6-axis motion data (3-axis accelerometer and 3-axis gyroscope) for analyzing movement and orientation patterns such as during walking upstairs or downstairs..
 
 The ESP32 continuously collects readings from both sensors and transmits them over serial communication for logging and further analysis.  
 A dedicated **Python-based analysis pipeline** processes the collected data, applying different filters (Exponential Moving Average, Low-Pass, Median, Outlier) to evaluate their performance across various recorded activities, including walking, sitting, standing, and stair movement.
