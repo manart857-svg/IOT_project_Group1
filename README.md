@@ -1,4 +1,4 @@
-## Sensor Filters Performance Analysis Project by : Atheer Ibraheem, Manar Taha, Mahmoud Diab 
+## Real-Time Multi-Sensor Filtering Framework Project by : Atheer Ibraheem, Manar Taha, Mahmoud Diab 
   
 ## Details about the project
 
